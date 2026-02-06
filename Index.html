@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Valentine Surprise 💖</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+      animation: pop 1s ease;
+    }
+    img {
+      width: 200px;
+      animation: bloom 2s ease-in-out infinite alternate;
+    }
+    h1 {
+      color: #d6336c;
+      margin-top: 20px;
+    }
+    @keyframes pop {
+      from { transform: scale(0.7); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    @keyframes bloom {
+      from { transform: scale(1); }
+      to { transform: scale(1.05); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Red_rose.jpg" alt="Rose">
+    <h1>Happy starting of<br>Valentine Week<br>baby! ❤️</h1>
+  </div>
+</body>
+</html>
